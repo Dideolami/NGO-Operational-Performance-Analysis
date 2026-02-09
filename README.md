@@ -99,3 +99,7 @@ The dashboard includes:
 
 ## Conclusion 
 This project delivered a clear overview of both the reach and effectiveness of the NGOs educational programs. By combining clean data, pivot analysis, and intuitive visuals, this dashboard and insights generated can help the NGO identify areas that require targeted support, improve student retention and enhance overall program effectiveness. Further analysis could incorporate instructor data, demographic data or time-based trends to further understand the drivers of student performance.
+
+
+## Author
+DIDEOLAMI ADETUBERU | DATA ANALYST | EXCEL | SQL | POWER BI
