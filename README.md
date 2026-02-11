@@ -36,13 +36,6 @@ This project used a simulated and anonymized dataset representing an NGO’s stu
   - Program Name
   - Program Completed
 
-## Assumptions Made During Analysis
-  - Attendance Rate values in the dataset were assumed to be correctly calculated at the source.
-  - Students with **Program Completed** recorded as "Yes" were classified as “Completed.”
-  - Students with **Program Completed** recorded as "No" were classified as “Not Completed.”
-  - Attendance Rate below 70% were classified as “At Risk.”
-  - The 6-month dataset was assumed to represent normal operational performance.
-
 ## Data Transformation & Cleaning
 Before analysis, the raw data was prepared in Power Query to ensure accuracy and consistency
 1. Created a backup copy of the original dataset
@@ -60,6 +53,15 @@ Before analysis, the raw data was prepared in Power Query to ensure accuracy and
 
 ![](Cleaned_dataset.PNG)
 
+
+## Assumptions Made During Analysis
+  - Attendance Rate values in the dataset were assumed to be correctly calculated at the source.
+  - Students with **Program Completed** recorded as "Yes" were classified as “Completed.”
+  - Students with **Program Completed** recorded as "No" were classified as “Not Completed.”
+  - Attendance Rate below 70% were classified as “At Risk.”
+  - The 6-month dataset was assumed to represent normal operational performance.
+
+
 ## Analysis
 The analysis was conducted primarily through calculated metrics and pivot tables to evaluate student performance trends and program effectiveness.
 Key Performance Indicators (KPIs)
@@ -72,12 +74,6 @@ Key Performance Indicators (KPIs)
   - Completion Rate (%)
     A calculated metric was created to measure program completion:
     Completion Rate (%) = (Number of students who completed the program / Total enrolled students) * 100
-
-## Metrics Considered but Not Selected
-  - Raw attendance counts were not used because percentage attendance provides better comparison across programs of different sizes.
-  - Total assessment score was not used since average score better reflects academic performance trends.
-  - Gender-based performance comparison was not included due to lack of strategic focus in the current business objective.
-
 
 **View the Pivot analysis below**
 
@@ -102,6 +98,11 @@ The dashboard includes:
 **View the dashboard below**
 
 ![](Project_dashboard.PNG)
+
+## Metrics Considered but Not Selected
+  - Raw attendance counts were not used because percentage attendance provides better comparison across programs of different sizes.
+  - Total assessment score was not used since average score better reflects academic performance trends.
+  - Gender-based performance comparison was not included due to lack of strategic focus in the current business objective.
 
 ## Insights & Findings
   - **Total Students Enrolled**: 400
